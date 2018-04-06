@@ -1,0 +1,7 @@
+exports.name = "Lion"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Olivier Flament grandit en France, à Toulouse, où il s'opposa au succès et à la foi de sa famille. Ses parents le mirent à la porte et il se retrouva sans domicile fixe à 18 ans. il s'engagea dans l'armée française par désespoir, puis il rejoint le 2e régiment des dragons, spécialisé dans les menaces NRBC. Au cours d'une mission au Soudan, il fit face à une épidémie de fièvre jaune. Alors qu'il protégeait une équipe d'enquêteurs sur le terrain, sa voix puissante rassura les habitants. C'est ainsi qu'il gagna son surnom : Lion. Finka a étudié son dossier et l'a recommandé à Rainbow pour qu'il intègre l'équipe en tant que spécialiste NRBC. Ce qui n'apparaît pas sur son dossier est le poids de sa culpabilité."
+exports.url = "https://google.fr"
+exports.capacité = "EE-ONE-D"
+exports.ext=".png"

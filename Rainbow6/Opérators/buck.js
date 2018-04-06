@@ -1,0 +1,7 @@
+exports.name = "Buck"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Né et élevé à Montréal, Sébastien Côté est quelqu'un de très pragmatique qui préfère les appareils mécaniques simples à l'arsenal high-tech utilisé par d'autres Agents. Le Passe-partout, un fusil à pompe de calibre 12 monté sous son arme, permet à Côté de passer rapidement des tirs de longue portée aux combats rapprochés, en changeant la position de ses mains sur son fusil d'assaut."
+exports.url = "https://google.fr"
+exports.capacité = "UN OUTIL DE PERÇAGE EFFICACE (SK 4-12)"
+exports.ext=".png"

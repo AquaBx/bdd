@@ -1,0 +1,7 @@
+exports.name = "Smoke"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Porter est un casse-cou qui ne se préoccupe guère de sa propre sécurité. Il est intrépide au combat et peut être un atout considérable lors de manœuvres défensives, bien qu'il semble apprécier le chaos de la guerre. Il utilise une mine télécommandée remplie de gaz composés pour empêcher les ennemis d'avancer."
+exports.url = "https://google.fr"
+exports.capacité = "GRENADE À GAZ TÉLÉCOMMANDÉE (GRENADE À COMPOSÉS Z8)"
+exports.ext=".gif"

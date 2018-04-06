@@ -1,0 +1,7 @@
+exports.name = "Zofia"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "La célèbre Zofia Bosak, officier décoré, est la deuxième spécialiste de l'unité polonaise de contre-terrorisme, le GROM, à intégrer l'équipe Rainbow. La première spécialiste n'est autre que sa sœur cadette, Elziebeta Bosak. Elle a toujours été la préférée des deux, ce qui creusa un important fossé entre elles. Suite à un congé maternité, Zofia réintégra le GROM peu de temps après avoir été informée qu'Ela passerait les tests de sélection. Lorsque cette dernière accepta la proposition de rejoindre la prestigieuse équipe Rainbow, Zofia décida d'en faire autant. Tout à propos du GROM semblait désormais lui rappeler la mort tragique de son père."
+exports.url = "https://google.fr"
+exports.capacité = "KS79 LIFELINE"
+exports.ext=".png"
