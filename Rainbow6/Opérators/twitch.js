@@ -1,7 +1,0 @@
-exports.name = "Twitch"
-exports.armure = "● ● ○"
-exports.rapidité = "● ● ○"
-exports.description = "Née dans la ville historique de Nancy, Pichon a grandi dans une famille accordant une grande importance à l'éducation, et en particulier aux sciences et aux mathématiques. Très vite, elle a participé à des concours de programmation, puis a rejoint un établissement d'enseignement militaire dès l'âge de seize ans. Experte en technologies, Emmanuelle Pichon a tendance à utiliser les gadgets pour aider son unité. Elle emporte en opération un petit drone capable d'infliger des chocs électriques aux ennemis et aux pièges."
-exports.url = "https://google.fr"
-exports.capacité = "DRONE À ÉLECTROCUTION (RSD MODEL 1)"
-exports.ext=".gif"

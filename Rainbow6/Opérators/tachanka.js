@@ -1,7 +1,0 @@
-exports.name = "Tachanka"
-exports.armure = "● ● ●"
-exports.rapidité = "● ○ ○"
-exports.description = "Iconoclaste dans l'âme, Alexsandr Senaviev a grandi dans une famille pro-armée rouge avant que la politique de la \"glasnost\" ne soit mise en place. Il a toujours montré un intérêt certain pour l'artillerie et l'armement soviétiques. À tel point que lors de ses opérations, il se sert d'une mitrailleuse vintage qu'il a lui-même restaurée et qu'il entretient avec amour."
-exports.url = "https://google.fr"
-exports.capacité = "MITRAILLEUSE (RP-46 DEGTYARYOV)"
-exports.ext=".gif"

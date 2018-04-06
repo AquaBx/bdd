@@ -1,7 +1,0 @@
-exports.name = "Mute"
-exports.armure = "● ● ○"
-exports.rapidité = "● ● ○"
-exports.description = "Vétéran du Siège des communications gouvernementales (GCHQ) britanniques, le travail remarquable de Mark Chandar en tant que spécialiste des renseignements a fait de lui une recrue de choix pour Rainbow. Il dispose d'un brouilleur de signaux issu de son ancien poste, qui lui permet d'empêcher toute communication dans une zone donnée, ainsi que les détonations à distance et l'utilisation de drones. Le GC90 \"Moni\", bloque le signal d'une détonation à distance et l'empêche d'atteindre un appareil situé dans sa zone d'effet."
-exports.url = "https://google.fr"
-exports.capacité = "MONI (PERTURBATEUR DE SIGNAUX GC90)"
-exports.ext=".gif"

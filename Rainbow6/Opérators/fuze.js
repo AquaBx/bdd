@@ -1,7 +1,0 @@
-exports.name = "Fuze"
-exports.armure = "● ● ●"
-exports.rapidité = "● ○ ○"
-exports.description = "Kessikbayev a grandi dans une famille de militaires à Samarcande, en Ouzbékistan, avant de rejoindre la Russie peu après l'effondrement de l'Union soviétique. Kessikbayev est un expert en bricolage et en conception, et est plus à l'aise avec les machines qu'avec les gens. Il transporte une charge de son invention qui, une fois posée sur un mur ou un sol, perce un trou à travers et libère de petites grenades à fragmentation."
-exports.url = "https://google.fr"
-exports.capacité = "CHARGE À SOUS-MUNITIONS (APM-6 \"MATRYOSHKA\")"
-exports.ext=".gif"

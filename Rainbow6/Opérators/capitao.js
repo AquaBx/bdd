@@ -1,7 +1,0 @@
-exports.name = "Capitão"
-exports.armure = "● ○ ○"
-exports.rapidité = "● ● ●"
-exports.description = "Vicente \"Capitão\" Souza est né à Nova Iguacu, près de Rio de Janeiro, où il a également grandi. À sa sortie du lycée, il a été recruté par le Cooredenadoria de Recursos Especiais (le CORE), mais lors d'une embuscade pendant une intervention urbaine, Souza a été capturé, puis torturé pendant deux mois. S'il a enduré son calvaire avec stoïcisme, les blessures qu'il a reçues sont irrémédiables, mais l'ont poussé à mettre au point des stratégies tout à fait inédites, ce qui n'a pas manqué d'attirer l'attention du BOPE."
-exports.url = "https://google.fr"
-exports.capacité = "ARBALÈTE TACTIQUE (TAC MK0)"
-exports.ext=".png"

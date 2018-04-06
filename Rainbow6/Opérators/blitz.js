@@ -1,7 +1,0 @@
-exports.name = "Blitz"
-exports.armure = "● ● ●"
-exports.rapidité = "● ○ ○"
-exports.description = "Célèbre pour sa tendance à utiliser l'humour afin de détendre l'atmosphère, Elias Kötz transporte un appareil peu commun en mission : un bouclier anti-émeute équipé de grenades flash capables d'étourdir les ennemis tout en restant protégé. Blitz est très efficace en première ligne : avec son bouclier Flash, il peut aveugler les cibles à portée qui regardent dans sa direction, ce qui les rend vulnérables aux tirs des alliés qui l'accompagnent."
-exports.url = "https://google.fr"
-exports.capacité = "BOUCLIER LÉGER TACTIQUE (G52)"
-exports.ext=".gif"

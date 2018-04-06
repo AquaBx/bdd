@@ -1,7 +1,0 @@
-exports.name = "Valkyrie"
-exports.armure = "● ● ○"
-exports.rapidité = "● ● ○"
-exports.description = "Officier d'intelligence Navale, elle a été choisie pour être la première femme à rejoindre l'entrainement des Navy SEAL. Attentive et concentrée, elle donnera toujours son maximum pour réussir chaque mission efficacement et sans heurt.Avec sa caméra \"Black Eye\", capable de se coller à toutes sortes de surfaces tout en gardant une vision claire permettant à toute l'équipe d'accéder à un flux vidéo en direct. Cette caméra à déploiement rapide se montre extrêmement utile lors des opérations pendant lesquelles le niveau d'information est limité. Elle permet de prendre un avantage tactique considérable en combat rapproché."
-exports.url = "https://google.fr"
-exports.capacité = "CAMERA COLLANTE \"FISH-EYE\" (CAMÉRA GYROSCOPIQUE MK2)"
-exports.ext=".png"
