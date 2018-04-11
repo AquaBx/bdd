@@ -1,0 +1,91 @@
+html ,body{
+    margin: 0;
+    padding: 0;
+    font: 15px arial, sans-serif;
+    color: white;
+    background-color: #0e0f11;
+ 
+}
+
+.body {
+
+    display: flex;   
+}
+
+#div1 , #div2 , #div3 , #div4 , #div5 , #div6 , #div7  {
+    display: none;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+
+    border-bottom-style: solid;
+}
+
+.armes {
+    flex:1;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.perf {
+    flex:1;
+    text-align: center;    
+}
+
+.armes img {
+    transition: 0.5s;
+    margin : 18.93 auto;
+width: 300;
+height: auto;
+display: block;
+}
+
+.armes .divarmes {
+    display: block;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    height: 150;
+    flex:1;
+}
+
+.htc {
+    display: flex;    
+}
+
+.armes img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+
+h1, h2 , h3 , h4 {
+    text-align: center;
+    margin : auto;
+    padding: 10
+}
+
+h1 {
+    border-bottom-style: solid;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: auto;
+    padding: 5px;
+}
+
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
