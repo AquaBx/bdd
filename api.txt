@@ -1,4 +1,0 @@
-https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=bcue7qli0jk20ltv94i2ajmu5z2cn8&redirect_uri=https://la-kartoucherie.github.io&scope=user_read+user_subscriptions+user_follows_edit&username=
-
-client_id = bcue7qli0jk20ltv94i2ajmu5z2cn8
-client_secret = giy8swwf7ee18mjpk6e1tc7s6oauzn
