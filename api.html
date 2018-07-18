@@ -1,0 +1,52 @@
+<p>Streamer : <a id="name"></a></p>
+<p>Status : <a id="status"></a></p>
+<p>Viewers : <a id="viewers"></a></p>
+<p>Title : <a id="title"></a></p>
+<p>Game : <a id="game"></a></p>
+<p>Followers : <a id="followers"></a></p>
+<p>Subscribers : <a id="subscribers"></a></p>
+
+
+
+
+
+<script>
+var user = "teamwcg";
+var infostream = "https://api.twitch.tv/kraken/streams/"+ user +"?client_id=bcue7qli0jk20ltv94i2ajmu5z2cn8";
+var infochannel = "https://api.twitch.tv/kraken/channels/"+ user +"?client_id=bcue7qli0jk20ltv94i2ajmu5z2cn8";
+	
+document.getElementById("name").innerHTML = user;
+
+function live() {
+				
+var stream = new XMLHttpRequest()
+stream.open("GET", infostream, true)
+stream.onreadystatechange = function(channel) {
+  if(stream.readyState == 4) {
+    var data = JSON.parse(stream.responseText)
+    if(data["stream"] === null){
+      document.getElementById("status").innerHTML = "Hors Ligne"
+    }else{
+      document.getElementById("status").innerHTML = "En Ligne"
+    }
+   document.getElementById("game").innerHTML = data.stream.game
+   document.getElementById("title").innerHTML = data.stream.channel.status
+   document.getElementById("viewers").innerHTML = data.stream.viewers
+  }
+}
+stream.send()
+
+var channels = new XMLHttpRequest()
+channels.open("GET", infochannel, true)
+channels.onreadystatechange = function(channel) {
+  if(channels.readyState == 4) {
+    var datas = JSON.parse(channels.responseText)
+    document.getElementById("followers").innerHTML = datas.followers
+  }
+}
+channels.send()
+
+}
+
+window.setInterval(live, 1000);
+</script>
