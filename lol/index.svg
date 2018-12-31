@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+      <body xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%; margin:0">
+        <iframe id="iframe" src="" style="width:100%;height:100%;border:none;"></iframe>
+		<script>
+			var html = document.location.hash;
+			document.getElementById("iframe").src = "index.html" + html;
+		</script>
+      </body>
+    </foreignObject>
+</svg>
