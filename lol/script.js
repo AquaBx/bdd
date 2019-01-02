@@ -78,12 +78,12 @@ else if (rune == "1-2"){return("Tempo Mortel")}
 else if (rune == "1-3"){return("Jeu de Jambes")}
 else if (rune == "1-4"){return("Conquerant")}
 else if (rune == "1-5"){return("Surcharge de PV")}
-else if (rune == "1-6"){return("Triomph")}
+else if (rune == "1-6"){return("Triomphe")}
 else if (rune == "1-7"){return("Presence d'esprit")}
 else if (rune == "1-8"){return("Legende : Alacrite")}
 else if (rune == "1-9"){return("Legende : Tenacite")}
 else if (rune == "1-10"){return("Legende : Sangsue")}
-else if (rune == "1-11"){return("Coup de Grâce")}
+else if (rune == "1-11"){return("Coup de Grace")}
 else if (rune == "1-12"){return("Abbatage")}
 else if (rune == "1-13"){return("Baroud d'Honneur")}
 
@@ -95,15 +95,15 @@ else if (rune == "2-5"){return("Coup Bas")}
 else if (rune == "2-6"){return("Gout du Sang")}
 else if (rune == "2-7"){return("Ruee Offensive")}
 else if (rune == "2-8"){return("Balise Zombie")}
-else if (rune == "2-9"){return("Poro Fantôme")}
-else if (rune == "2-10"){return("arracheur d'œil")}
+else if (rune == "2-9"){return("Poro Fantome")}
+else if (rune == "2-10"){return("Arracheur d'œil")}
 else if (rune == "2-11"){return("Chasseur Vorace")}
 else if (rune == "2-12"){return("Chasseur Ingenieux")}
 else if (rune == "2-13"){return("Chasseur Acharne")}
 else if (rune == "2-14"){return("Chasseur Ultime")}
 
 else if (rune == "3-1"){return("Invocation d'Aery")}
-else if (rune == "3-2"){return("Comète Arcanique")}
+else if (rune == "3-2"){return("Comete Arcanique")}
 else if (rune == "3-3"){return("Rush Phasique")}
 else if (rune == "3-5"){return("Orbe Anti-Magie")}
 else if (rune == "3-6"){return("Ruban de Mana")}
@@ -115,102 +115,102 @@ else if (rune == "3-11"){return("Brulure")}
 else if (rune == "3-12"){return("Marche sur l'Eau")}
 else if (rune == "3-13"){return("Tempete Menaçante")}
 
-else if (rune == "4-1"){return("grasp-of-the-undying")}
-else if (rune == "4-2"){return("aftershock")}
-else if (rune == "4-3"){return("guardian")}
-else if (rune == "4-5"){return("demolish")}
-else if (rune == "4-6"){return("font-of-life")}
-else if (rune == "4-7"){return("shield-bash")}
-else if (rune == "4-8"){return("conditioning")}
-else if (rune == "4-9"){return("second-wind")}
-else if (rune == "4-10"){return("bone-plating")}
-else if (rune == "4-11"){return("overgrowth")}
-else if (rune == "4-12"){return("revitalize")}
-else if (rune == "4-13"){return("unflinching")}
+else if (rune == "4-1"){return("Poigne de l'Immortel")}
+else if (rune == "4-2"){return("Apres-Coup")}
+else if (rune == "4-3"){return("Gardien")}
+else if (rune == "4-5"){return("Demolition")}
+else if (rune == "4-6"){return("Fontaine de Vie")}
+else if (rune == "4-7"){return("Coup de Bouclier")}
+else if (rune == "4-8"){return("Conditionnement")}
+else if (rune == "4-9"){return("Second Souffle")}
+else if (rune == "4-10"){return("Plaque d'Os")}
+else if (rune == "4-11"){return("Surcroissance")}
+else if (rune == "4-12"){return("Revitalisation")}
+else if (rune == "4-13"){return("Inebranlable")}
 
-else if (rune == "5-1"){return("unsealed-spellbook")}
-else if (rune == "5-2"){return("glacial-augment")}
-else if (rune == "5-3"){return("kleptomancy")}
-else if (rune == "5-5"){return("hextech-flashtraption")}
-else if (rune == "5-6"){return("magical-footwear")}
-else if (rune == "5-7"){return("perfect-timing")}
-else if (rune == "5-8"){return("futures-market")}
-else if (rune == "5-9"){return("minion-dematerializer")}
-else if (rune == "5-10"){return("biscuit-delivery")}
-else if (rune == "5-11"){return("cosmic-insight")}
-else if (rune == "5-12"){return("approach-velocity")}
-else if (rune == "5-13"){return("time-warp-tonic")}
+else if (rune == "5-1"){return("Optimisation Glaciale")}
+else if (rune == "5-2"){return("Kleptomancie")}
+else if (rune == "5-3"){return("Grimoire Dechaine")}
+else if (rune == "5-5"){return("Canaliportation Hextech")}
+else if (rune == "5-6"){return("Chaussures Magiques")}
+else if (rune == "5-7"){return("Timing Parfait")}
+else if (rune == "5-8"){return("Marche du Futur")}
+else if (rune == "5-9"){return("Desintegrateur de Sbires")}
+else if (rune == "5-10"){return("Livraison de Biscuits")}
+else if (rune == "5-11"){return("Savoir Cosmique")}
+else if (rune == "5-12"){return("Vitesse d'Approche")}
+else if (rune == "5-13"){return("Philtre de Chronodistorsion")}
 }
 
 function desc(a,b){
 var rune = a+'-'+b;
-if (rune == "1-1"){return("press-the-attack")}
-else if (rune == "1-2"){return("lethal-tempo")}
-else if (rune == "1-3"){return("fleet-footwork")}
-else if (rune == "1-4"){return("conqueror")}
-else if (rune == "1-5"){return("overheal")}
-else if (rune == "1-6"){return("triumph")}
-else if (rune == "1-7"){return("presence-of-mind")}
-else if (rune == "1-8"){return("legend-alacrity")}
-else if (rune == "1-9"){return("legend-tenacity")}
-else if (rune == "1-10"){return("legend-bloodline")}
-else if (rune == "1-11"){return("coup-de-grace")}
-else if (rune == "1-12"){return("cut-down")}
-else if (rune == "1-13"){return("last-stand")}
-
-else if (rune == "2-1"){return("electrocute")}
-else if (rune == "2-2"){return("predator")}
-else if (rune == "2-3"){return("dark-harvest")}
-else if (rune == "2-4"){return("hail-of-blades")}
-else if (rune == "2-5"){return("cheap-shot")}
-else if (rune == "2-6"){return("taste-of-blood")}
-else if (rune == "2-7"){return("sudden-impact")}
-else if (rune == "2-8"){return("zombie-ward")}
-else if (rune == "2-9"){return("ghost-poro")}
-else if (rune == "2-10"){return("eyeball-collection")}
-else if (rune == "2-11"){return("ravenous-hunter")}
-else if (rune == "2-12"){return("ingenious-hunter")}
-else if (rune == "2-13"){return("relentless-hunter")}
-else if (rune == "2-14"){return("ultimate-hunter")}
-
-else if (rune == "3-1"){return("summon-aery")}
-else if (rune == "3-2"){return("arcane-comet")}
-else if (rune == "3-3"){return("phase-rush")}
-else if (rune == "3-5"){return("nullifying-orb")}
-else if (rune == "3-6"){return("manaflow-band")}
-else if (rune == "3-7"){return("nimbus-cloak")}
-else if (rune == "3-8"){return("transcendence")}
-else if (rune == "3-9"){return("celerity")}
-else if (rune == "3-10"){return("absolute-focus")}
-else if (rune == "3-11"){return("scorch")}
-else if (rune == "3-12"){return("waterwalking")}
-else if (rune == "3-13"){return("gathering-storm")}
-
-else if (rune == "4-1"){return("grasp-of-the-undying")}
-else if (rune == "4-2"){return("aftershock")}
-else if (rune == "4-3"){return("guardian")}
-else if (rune == "4-5"){return("demolish")}
-else if (rune == "4-6"){return("font-of-life")}
-else if (rune == "4-7"){return("shield-bash")}
-else if (rune == "4-8"){return("conditioning")}
-else if (rune == "4-9"){return("second-wind")}
-else if (rune == "4-10"){return("bone-plating")}
-else if (rune == "4-11"){return("overgrowth")}
-else if (rune == "4-12"){return("revitalize")}
-else if (rune == "4-13"){return("unflinching")}
-
-else if (rune == "5-1"){return("unsealed-spellbook")}
-else if (rune == "5-2"){return("glacial-augment")}
-else if (rune == "5-3"){return("kleptomancy")}
-else if (rune == "5-5"){return("hextech-flashtraption")}
-else if (rune == "5-6"){return("magical-footwear")}
-else if (rune == "5-7"){return("perfect-timing")}
-else if (rune == "5-8"){return("futures-market")}
-else if (rune == "5-9"){return("minion-dematerializer")}
-else if (rune == "5-10"){return("biscuit-delivery")}
-else if (rune == "5-11"){return("cosmic-insight")}
-else if (rune == "5-12"){return("approach-velocity")}
-else if (rune == "5-13"){return("time-warp-tonic")}
+if (rune == "1-1"){return("")}
+else if (rune == "1-2"){return("")}
+else if (rune == "1-3"){return("")}
+else if (rune == "1-4"){return("")}
+else if (rune == "1-5"){return("")}
+else if (rune == "1-6"){return("")}
+else if (rune == "1-7"){return("")}
+else if (rune == "1-8"){return("")}
+else if (rune == "1-9"){return("")}
+else if (rune == "1-10"){return("")}
+else if (rune == "1-11"){return("")}
+else if (rune == "1-12"){return("")}
+else if (rune == "1-13"){return("")}
+                                 
+else if (rune == "2-1"){return("")}
+else if (rune == "2-2"){return("")}
+else if (rune == "2-3"){return("")}
+else if (rune == "2-4"){return("")}
+else if (rune == "2-5"){return("")}
+else if (rune == "2-6"){return("")}
+else if (rune == "2-7"){return("")}
+else if (rune == "2-8"){return("")}
+else if (rune == "2-9"){return("")}
+else if (rune == "2-10"){return("")}
+else if (rune == "2-11"){return("")}
+else if (rune == "2-12"){return("")}
+else if (rune == "2-13"){return("")}
+else if (rune == "2-14"){return("")}
+                                 
+else if (rune == "3-1"){return("")}
+else if (rune == "3-2"){return("")}
+else if (rune == "3-3"){return("")}
+else if (rune == "3-5"){return("")}
+else if (rune == "3-6"){return("")}
+else if (rune == "3-7"){return("")}
+else if (rune == "3-8"){return("")}
+else if (rune == "3-9"){return("")}
+else if (rune == "3-10"){return("")}
+else if (rune == "3-11"){return("")}
+else if (rune == "3-12"){return("")}
+else if (rune == "3-13"){return("")}
+                                 
+else if (rune == "4-1"){return("")}
+else if (rune == "4-2"){return("")}
+else if (rune == "4-3"){return("")}
+else if (rune == "4-5"){return("")}
+else if (rune == "4-6"){return("")}
+else if (rune == "4-7"){return("")}
+else if (rune == "4-8"){return("")}
+else if (rune == "4-9"){return("")}
+else if (rune == "4-10"){return("")}
+else if (rune == "4-11"){return("")}
+else if (rune == "4-12"){return("")}
+else if (rune == "4-13"){return("")}
+                                 
+else if (rune == "5-1"){return("")}
+else if (rune == "5-2"){return("")}
+else if (rune == "5-3"){return("")}
+else if (rune == "5-5"){return("")}
+else if (rune == "5-6"){return("")}
+else if (rune == "5-7"){return("")}
+else if (rune == "5-8"){return("")}
+else if (rune == "5-9"){return("")}
+else if (rune == "5-10"){return("")}
+else if (rune == "5-11"){return("")}
+else if (rune == "5-12"){return("")}
+else if (rune == "5-13"){return("")}
 }
 
 

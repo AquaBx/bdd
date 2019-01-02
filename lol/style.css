@@ -5,9 +5,8 @@ box-sizing:border-box}
 
 html
 {
-	font-family:sans-serif;
-	-ms-text-size-adjust:100%;
--webkit-text-size-adjust:100%}
+	font-family: 'Righteous', sans-serif;
+}
 
 body
 {
@@ -28,10 +27,6 @@ overflow:hidden}
 	margin:0 calc((100vw - 1050px) / 2);
 max-width:1050px}
 
-.navigation-main a:hover
-{
-	color:#f2e9da;
-background:linear-gradient(to top, rgba(242,233,218,0.05) 0%, transparent 100%)}
 
 .rune-path--path_image
 {
@@ -123,12 +118,6 @@ display:flex}
 {
 height:115px}
 
-
-.rune-path--primary .rune-path--rune:first-of-type .rune-path--rune_name
-{
-	font-size:15px;
-line-height:20px}
-
 .rune-path--rune_image
 {
 	width:107px;
@@ -137,7 +126,6 @@ line-height:20px}
 	justify-content:center;
 	align-items:center;
 position:relative}
-
 
 .rune-image
 {
@@ -162,7 +150,7 @@ max-width:none}
 .rune-image--frame:hover .rune-image--border-outer
 {
 	opacity:0.5;
-transform:translate(-50%, -50%) scale(1)}
+}
 
 .rune-image--border
 {
@@ -203,8 +191,6 @@ height:76px}
 	width:62px;
 height:62px}
 
-
-
 .rune-keystone .rune-image
 {
 	width:108px;
@@ -215,7 +201,7 @@ height:108px}
 	position:relative;
 margin-top:25px !important}
 
-.stat-shards .rune-path--rune
+.rune-path--rune
 {
 cursor:default !important}
 
@@ -283,19 +269,16 @@ display:flex}
 	display:flex;
 	flex-direction:column;
 	padding:30px 15px;
-	background-position:right center;
-	background-repeat:no-repeat;
-	background-size:cover;
 position:relative}
 
-.rune-paths--inner .player-frame
+.player-frame
 {
 	position:absolute;
 	top:25px;
 	right:-20px;
 z-index:2}
 
-.rune-paths--inner .backdrop
+.backdrop
 {
 	width:100%;
 	height:100%;
@@ -304,38 +287,53 @@ z-index:2}
 	top:0;
 	right:0;
 	z-index:-2;
-	pointer-events:none;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none;
-	will-change:transform;
 	transition:0.3s;
-opacity:1}
+	opacity:1;
+}
 
-.rune-paths--inner .rune-path
+.rune-path
 {
-
 	width:305px;
 }
 
-.rune-paths--inner .rune-path--tree
+.rune-path--tree
 {
 	display:flex;
 	flex-direction:column;
 	margin:0;
 	padding:0;
-list-style:none}
+	list-style:none;
+}
 
 .rune-paths--inner img
 {
 max-width:none}
 
+.rune-path--rune_meta
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	position:relative;
+	width:198px;
+	height:90px;
+}
 
+.rune-path--rune_name
+{
+	margin:0;
+	text-transform:uppercase;
+	color:#f2e9da;
+	font-size:15px;
+	line-height:0px;
+	font-weight:700;
+}
 
-
-.rune-path--rune_meta{display:flex;flex-direction:column;justify-content:center;position:relative;width:198px;height:90px}
-
-.rune-path--rune_name{margin:0;font-family:"Beaufort", serif;text-transform:uppercase;color:#f2e9da;font-size:12px;line-height:16px;font-weight:700}
-.rune-path--rune_description{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;max-height:46px;font-size:12px;line-height:16px}
-.rune-path--rune_description{color:white}
+.rune-path--rune_description
+{
+	overflow:hidden;
+	max-height:46px;
+	font-size:12px;
+	line-height:16px;
+	color:white;
+}

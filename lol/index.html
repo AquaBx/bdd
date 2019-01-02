@@ -1,6 +1,6 @@
 <head>
 <link rel="stylesheet" href="style.css" type="text/css" media="all">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 
 <script src="script.js"></script>
 </head>
@@ -9,15 +9,15 @@
 var html = document.location.hash;
 
 html = html.substring(html.lastIndexOf( "#" )+1);
-var perso = html.substring(html.lastIndexOf( "/" )+1);
-
-html = html.substring(0,html.lastIndexOf( "/" ));
 var shards = html.substring(html.lastIndexOf( "/" )+1);
 html = html.substring(0,html.lastIndexOf( "/" ));
 var rune2 = html.substring(html.lastIndexOf( "/" )+1);
 html = html.substring(0,html.lastIndexOf( "/" ));
 var rune1 = html.substring(html.lastIndexOf( "/" )+1);
-
+html = html.substring(0,html.lastIndexOf( "/" ));
+var perso = html.substring(html.lastIndexOf( "/" )+1);
+html = html.substring(0,html.lastIndexOf( "/" ));
+var poste = html.substring(html.lastIndexOf( "/" )+1);
 </script>
      
 
@@ -41,7 +41,18 @@ var rune1 = html.substring(html.lastIndexOf( "/" )+1);
 								<circle id="svg1-4" cx="42" cy="42" r="42" fill="none" stroke-width="2"></circle>
 							</svg>
 							<img class="rune-path--icon" id="rune1">
+							
 						</div>
+						<div class="rune-path--rune_meta">                                              
+							<div class="rune-path--rune_header">
+								<div class="rune-path--rune_name">
+									<a id="name1" class="rune-name"></a>
+								</div>
+							</div>
+							<div class="rune-path--rune_description">
+								<p id="desc1"></p>                                                  
+							</div>
+						</div>	
 					</div>
 					<ol class="rune-path--tree">
 						<li class="rune-path--rune rune-keystone ">
@@ -57,17 +68,7 @@ var rune1 = html.substring(html.lastIndexOf( "/" )+1);
 										</svg>
 										<svg class="rune-image--border-outer" viewBox="0 0 60 60" size="default">
 											<circle id="svg1-6" cx="30" cy="30" r="28.5" stroke-width="3" fill="none"></circle>
-										</svg>
-												<div class="rune-path--rune_meta">                                              
-											<div class="rune-path--rune_header">
-											<div class="rune-path--rune_name">
-											<a id="name1" class="rune-name"></a>
-											</div>
-											</div>
-											<div class="rune-path--rune_description">
-											<p id="desc1"></p>                                                  
-											</div>
-										</div>								
+										</svg>							
 									</div>
 								</div>
 								
@@ -175,6 +176,16 @@ var rune1 = html.substring(html.lastIndexOf( "/" )+1);
 							</svg>
 							<img class="rune-path--icon" id="rune2">
 						</div>
+						<div class="rune-path--rune_meta">                                              
+							<div class="rune-path--rune_header">
+								<div class="rune-path--rune_name">
+									<a id="name2" class="rune-name"></a>
+								</div>
+							</div>
+							<div class="rune-path--rune_description">
+								<p id="desc2"></p>                                                  
+							</div>
+						</div>						
 					</div>
 					<ol class="rune-path--tree">
 						<li class="rune-path--rune rune-rune-tier-2 ">
@@ -188,16 +199,6 @@ var rune1 = html.substring(html.lastIndexOf( "/" )+1);
 										<svg class="rune-image--border-outer" viewBox="0 0 60 60" size="default">
 											<circle id="svg2-6" cx="30" cy="30" r="28.5" stroke-width="3" fill="none""></circle>
 										</svg>
-										<div class="rune-path--rune_meta">                                              
-											<div class="rune-path--rune_header">
-											<div class="rune-path--rune_name">
-											<a id="name2" class="rune-name"></a>
-											</div>
-											</div>
-											<div class="rune-path--rune_description">
-											<p id="desc2"></p>                                                  
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
