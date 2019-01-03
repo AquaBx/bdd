@@ -438,9 +438,9 @@ else if (type2 == "2") {document.getElementById("shard2").src = "images/shards/s
 else if (type2 == "3") {document.getElementById("shard2").src = "images/shards/shard-mr.svg";}
 else {}
 
-if (type3 == "1") {document.getElementById("shard3").src = "images/shards/shard-armor.svg";}
-else if (type3 == "2") {document.getElementById("shard3").src = "images/shards/shard-mr.svg";}
-else if (type3 == "3") {document.getElementById("shard3").src = "images/shards/shard-health.svg";}
+if (type3 == "1") {document.getElementById("shard3").src = "images/shards/shard-health.svg";}
+else if (type3 == "2") {document.getElementById("shard3").src = "images/shards/shard-armor.svg";}
+else if (type3 == "3") {document.getElementById("shard3").src = "images/shards/shard-mr.svg";}
 else if (type3 == "4") {document.getElementById("shard3").src = "images/shards/shard-hybrid-mr-armor.svg";}
 else {}
 
