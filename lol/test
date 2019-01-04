@@ -1,0 +1,76 @@
+<body>
+<p>Streamer : <a id="name"></a></p>
+<p>Status : <a id="status"></a></p>
+<p>Viewers : <a id="viewers"></a></p>
+<p>Title : <a id="title"></a></p>
+<p>Game : <a id="game"></a></p>
+<p>Followers : <a id="followers"></a></p>
+<p>Subscribers : <a id="subscribers"></a></p>
+
+<script>
+var player = "AquaBx";
+var region = "euw";
+var api_key = "RGAPI-63fae439-12e4-424f-b9c9-b30a4a06dbbb";
+var player_id = id();
+var champion_id = "1";
+var player_rank = rank();
+var player_masteries = masteries(champion_id);
+
+
+function id(){
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
+	var request = new XMLHttpRequest();
+
+	request.open("GET", request_url, true);
+	request.responseType = 'json';
+	request.send();
+
+	request.onload = function() {
+		var datas = request.response;
+		return(datas.id);
+	}
+}
+
+function rank-solo(){
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ player_id +"?api_key=" + api_key;
+	var request = new XMLHttpRequest();
+
+	request.open("GET", request_url, true);
+	request.responseType = 'json';
+	request.send();
+
+	request.onload = function() {
+		var datas = request.response;
+		return(datas.id);
+	}
+}
+
+function rank-flex(){
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ player_id +"?api_key=" + api_key;
+	var request = new XMLHttpRequest();
+
+	request.open("GET", request_url, true);
+	request.responseType = 'json';
+	request.send();
+
+	request.onload = function() {
+		var datas = request.response;
+		return(datas.id);
+	}
+}
+
+function masteries(champion){
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/"+ player_id + "/by-champion/" + champion + "?api_key=" + api_key;
+	var request = new XMLHttpRequest();
+
+	request.open("GET", request_url, true);
+	request.responseType = 'json';
+	request.send();
+
+	request.onload = function() {
+		var datas = request.response;
+		return(datas.id);
+	}
+}
+</script>
+</body>
