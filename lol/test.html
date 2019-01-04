@@ -1,23 +1,24 @@
 <body>
-<p>Streamer : <a id="name"></a></p>
-<p>Status : <a id="status"></a></p>
-<p>Viewers : <a id="viewers"></a></p>
-<p>Title : <a id="title"></a></p>
-<p>Game : <a id="game"></a></p>
-<p>Followers : <a id="followers"></a></p>
-<p>Subscribers : <a id="subscribers"></a></p>
-
+<p>name : <a id="name"></a></p>
+<p>region : <a id="region"></a></p>
+<p>key : <a id="key"></a></p>
+<p>id : <a id="id"></a></p>
+<p>champ : <a id="champ"></a></p>
+<p>solo : <a id="solo"></a></p>
+<p>flex : <a id="flex"></a></p>
+<p>masteries : <a id="masteries"></a></p>
 <script>
-var player = "AquaBx";
-var region = "euw";
-var api_key = "RGAPI-63fae439-12e4-424f-b9c9-b30a4a06dbbb";
-var player_id = id();
-var champion_id = "1";
-var player_ranksolo = ranksolo();
-var player_rankflex = rankflex();
-var player_masteries = masteries(champion_id);
+document.getElementById("name").innerHTML = var player = "AquaBx";
+document.getElementById("region").innerHTML = var region = "euw";
+document.getElementById("key").innerHTML = var api_key = "RGAPI-63fae439-12e4-424f-b9c9-b30a4a06dbbb";
+document.getElementById("id").innerHTML = var player_id = id();
+document.getElementById("champ").innerHTML = var champion_id = "1";
+document.getElementById("solo").innerHTML = var player_ranksolo = ranksolo();
+document.getElementById("flex").innerHTML = var player_rankflex = rankflex();
+document.getElementById("masteries").innerHTML = var player_masteries = masteries(champion_id);
 
-document.getElementById("name").innerHTML = player_id;
+
+
 
 function id(){
 	var request_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
@@ -29,13 +30,12 @@ function id(){
 
 	request.onload = function() {
 		var datas = request.response;
-		alert(datas.id);
-		document.getElementById("name").innerHTML = datas.id;
+		return(datas.id);
 	}
 }
 
 function ranksolo(){
-	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ player_id +"?api_key=" + api_key;
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ id() +"?api_key=" + api_key;
 	var request = new XMLHttpRequest();
 
 	request.open("GET", request_url, true);
@@ -49,7 +49,7 @@ function ranksolo(){
 }
 
 function rankflex(){
-	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ player_id +"?api_key=" + api_key;
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ id() +"?api_key=" + api_key;
 	var request = new XMLHttpRequest();
 
 	request.open("GET", request_url, true);
@@ -63,7 +63,7 @@ function rankflex(){
 }
 
 function masteries(champion){
-	var request_url = "https://" + region + "1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/"+ player_id + "/by-champion/" + champion + "?api_key=" + api_key;
+	var request_url = "https://" + region + "1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/"+ id() + "/by-champion/" + champion + "?api_key=" + api_key;
 	var request = new XMLHttpRequest();
 
 	request.open("GET", request_url, true);
