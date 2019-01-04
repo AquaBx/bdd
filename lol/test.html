@@ -3,6 +3,7 @@
 <p>region : <a id="region"></a></p>
 <p>key : <a id="key"></a></p>
 <p>champ : <a id="champ"></a></p>
+<div id="root"></div>
 <script>
 var player = "AquaBx";
 document.getElementById("name").innerHTML = player
@@ -16,7 +17,7 @@ document.getElementById("key").innerHTML = api_key
 var champion_id = "1";
 document.getElementById("champ").innerHTML = champion_id
 
-const container = document.createElement('div');
+const container = document.getElementById('root');
 function id(){
 	var request_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
 	var request = new XMLHttpRequest();
