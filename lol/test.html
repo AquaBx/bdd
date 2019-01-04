@@ -2,11 +2,7 @@
 <p>name : <a id="name"></a></p>
 <p>region : <a id="region"></a></p>
 <p>key : <a id="key"></a></p>
-<p>id : <a id="id"></a></p>
 <p>champ : <a id="champ"></a></p>
-<p>solo : <a id="solo"></a></p>
-<p>flex : <a id="flex"></a></p>
-<p>masteries : <a id="masteries"></a></p>
 <script>
 var player = "AquaBx";
 document.getElementById("name").innerHTML = player
@@ -32,20 +28,14 @@ function id(){
 	request.onload = function() {
 		var datas = request.response;
 		
-		document.getElementById("id").innerHTML = datas.id;
+		document.createElement("p").innerHTML = datas.id;
 		
-		var player_ranksolo = ranksolo(datas.id);
-		document.getElementById("solo").text = ranksolo(datas.id);
-
-		var player_rankflex = rankflex(datas.id);
-		document.getElementById("flex").text = rankflex(datas.id);
-
-		var player_masteries = masteries(datas.id,champion_id);
-		document.getElementById("masteries").text = masteries(datas.id,champion_id);
+		rank(datas.id);
+		masteries(datas.id,champion_id);
 	}
 }
 
-function ranksolo(pid){
+function rank(pid){
 	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ pid +"?api_key=" + api_key;
 	var request = new XMLHttpRequest();
 
@@ -56,20 +46,10 @@ function ranksolo(pid){
 	request.onload = function() {
 		var datas = request.response;
 		return(datas.id);
-	}
-}
-
-function rankflex(pid){
-	var request_url = "https://" + region + "1.api.riotgames.com/lol/league/v4/positions/by-summoner/"+ pid +"?api_key=" + api_key;
-	var request = new XMLHttpRequest();
-
-	request.open("GET", request_url, true);
-	request.responseType = 'json';
-	request.send();
-
-	request.onload = function() {
-		var datas = request.response;
-		return(datas.id);
+		datas.forEach(rank => {
+			document.createElement('p').textContent = rank.tier + rank.rank
+		})
+    });
 	}
 }
 
@@ -83,7 +63,8 @@ function masteries(pid,champion){
 
 	request.onload = function() {
 		var datas = request.response;
-		return(datas.id);
+		return(datas.championLevel);
+		document.createElement('p').textContent = datas.championLevel;
 	}
 }
 </script>
