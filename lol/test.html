@@ -1,4 +1,4 @@
-<body>
+<body onload="id()">
 <p>name : <a id="name"></a></p>
 <p>region : <a id="region"></a></p>
 <p>key : <a id="key"></a></p>
@@ -32,7 +32,6 @@ function id(){
 	request.onload = function() {
 		var datas = request.response;
 		
-		alert(datas.id);
 		document.getElementById("id").innerHTML = datas.id;
 		
 		var player_ranksolo = ranksolo(datas.id);
