@@ -29,6 +29,8 @@ function id(){
 		var datas = request.response;
 		
 		document.createElement("p").innerHTML = datas.id;
+		container.appendChild(body);
+		body.appendChild(p);
 		
 		rank(datas.id);
 		masteries(datas.id,champion_id);
@@ -48,6 +50,8 @@ function rank(pid){
 		return(datas.id);
 		datas.forEach(rank => {
 			document.createElement('p').textContent = rank.tier + rank.rank
+			container.appendChild(body);
+			body.appendChild(p);
 		})
 	}
 }
@@ -64,6 +68,8 @@ function masteries(pid,champion){
 		var datas = request.response;
 		return(datas.championLevel);
 		document.createElement('p').textContent = datas.championLevel;
+		container.appendChild(body);
+		body.appendChild(p);
 	}
 }
 </script>
