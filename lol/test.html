@@ -16,7 +16,7 @@ document.getElementById("key").innerHTML = api_key
 var champion_id = "1";
 document.getElementById("champ").innerHTML = champion_id
 
-
+const container = document.createElement('div');
 function id(){
 	var request_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
 	var request = new XMLHttpRequest();
@@ -28,9 +28,9 @@ function id(){
 	request.onload = function() {
 		var datas = request.response;
 		
-		document.createElement("p").innerHTML = datas.id;
-		container.appendChild(body);
-		body.appendChild(p);
+		const p = document.createElement("p");
+		p.textContent = datas.id;
+		container.appendChild(p);
 		
 		rank(datas.id);
 		masteries(datas.id,champion_id);
@@ -49,9 +49,9 @@ function rank(pid){
 		var datas = request.response;
 		return(datas.id);
 		datas.forEach(rank => {
-			document.createElement('p').textContent = rank.tier + rank.rank
-			container.appendChild(body);
-			body.appendChild(p);
+			const p = document.createElement('p');
+			p.textContent = rank.tier + rank.rank;
+			container.appendChild(p);
 		})
 	}
 }
@@ -66,10 +66,10 @@ function masteries(pid,champion){
 
 	request.onload = function() {
 		var datas = request.response;
-		return(datas.championLevel);
-		document.createElement('p').textContent = datas.championLevel;
-		container.appendChild(body);
-		body.appendChild(p);
+		
+		const p = document.createElement("p");
+		p.textContent = datas.championLevel;
+		container.appendChild(p);
 	}
 }
 </script>
