@@ -17,6 +17,7 @@ var player_ranksolo = ranksolo();
 var player_rankflex = rankflex();
 var player_masteries = masteries(champion_id);
 
+document.getElementById("name").text = player_id;
 
 function id(){
 	var request_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
