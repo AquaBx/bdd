@@ -24,7 +24,6 @@ function id(){
 	var request = new XMLHttpRequest();
 
 	request.open("GET", request_url, true);
-	request.setRequestHeader('Access-Control-Allow-Origin', document.location)
 	request.send();
 
 	request.onload = function() {
