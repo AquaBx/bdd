@@ -11,7 +11,7 @@ document.getElementById("name").innerHTML = player
 var region = "euw";
 document.getElementById("region").innerHTML = region
 
-var api_key = "RGAPI-63fae439-12e4-424f-b9c9-b30a4a06dbbb";
+var api_key = "RGAPI-2afeaa38-2e6b-4011-aeea-3c99d276a333";
 document.getElementById("key").innerHTML = api_key
 
 var champion_id = "1";
@@ -19,23 +19,24 @@ document.getElementById("champ").innerHTML = champion_id
 
 const container = document.getElementById('root');
 function id(){
-	var request_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
-	var request = new XMLHttpRequest();
-
-	request.open("GET", request_url, true);
-	request.responseType = 'json';
-	request.send();
-
-	request.onload = function() {
-		var datas = request.response;
+		var xhr = new XMLHttpRequest()
+		var xhr_url = "https://" + region + "1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ player +"?api_key=" + api_key;
+        xhr.open('POST', xhr_url, true)
+        xhr.withCredentials = true
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 2) {
+			var datas = request.response;
 		
-		const p = document.createElement("p");
-		p.textContent = datas.id;
-		container.appendChild(p);
+			const p = document.createElement("p");
+			p.textContent = datas.id;
+			container.appendChild(p);
 		
-		rank(datas.id);
-		masteries(datas.id,champion_id);
-	}
+			rank(datas.id);
+			masteries(datas.id,champion_id);
+		  }
+        }
+        xhr.setRequestHeader('Content-Type', 'application/json')
+        xhr.send(JSON)
 }
 
 function rank(pid){
