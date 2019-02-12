@@ -3,7 +3,7 @@
 <p>region : <a id="region"></a></p>
 <p>key : <a id="key"></a></p>
 <p>champ : <a id="champ"></a></p>
-<P>1</P>>
+<P>2</P>
 <div id="root"></div>
 <script>
 var player = "AquaBx";
@@ -24,7 +24,7 @@ function id(){
 	var request = new XMLHttpRequest();
 
 	request.open("GET", request_url, true);
-	request.setRequestHeader('Content-Type', 'application/json')
+	request.setRequestHeader('Origin', '*')
 	request.send();
 
 	request.onload = function() {
