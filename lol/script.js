@@ -224,6 +224,8 @@ var type1 = a.substring(a.lastIndexOf( "," )+1);
 a = a.substring(0,a.lastIndexOf( "," ));
 var type = a.substring(a.lastIndexOf( "," )+1);
 
+
+document.getElementById("qrcode").src = "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=" + url;
 document.getElementById("perso").src = "icon/" + perso + ".png";
 
 if (type == "1") {
