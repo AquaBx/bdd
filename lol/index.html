@@ -10,8 +10,8 @@
 <body onload="a(rune1,rune2,shards)">
 	<script>
 		var url  = document.location;
-		var hash = document.location.hash;
-		var html = hash.substring(hash.lastIndexOf( "#" )+1);
+		var hash = document.location.query;
+		var html = hash.substring(hash.lastIndexOf( "?" )+1);
 		var shards = html.substring(html.lastIndexOf( "/" )+1);
 		html = html.substring(0,html.lastIndexOf( "/" ));
 		var rune2 = html.substring(html.lastIndexOf( "/" )+1);

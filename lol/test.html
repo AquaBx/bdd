@@ -24,8 +24,7 @@ function id(){
 	var request = new XMLHttpRequest();
 
 	request.open("GET", request_url, true);
-	request.send();
-
+	request.send("json");
 	request.onload = function() {
 		var datas = request.response;
 		
