@@ -1,0 +1,7 @@
+exports.name = "Jagger"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Vétéran des opérations d'anti-piraterie du GSG 9 dans l'océan Indien, Marius Streicher a déjà travaillé à bord d'un hélicoptère et comme conseiller technique. Il peut sécuriser une zone contre des explosifs aériens grâce à son système de défense active, ou \"Magpie\", capable de neutraliser un projectile en approche."
+exports.url = "https://google.fr"
+exports.capacité = "DÉFENSE ACTIVE (ADS-MK IV \"MAGPIE\")"
+exports.ext=".gif"

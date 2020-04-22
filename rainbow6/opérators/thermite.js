@@ -1,0 +1,7 @@
+exports.name = "Thermite"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Jordan Trace, un ancien marine, a servi deux ans en Irak, et a obtenu un diplôme de chimie après avoir été démobilisé. Il a ensuite rejoint le FBI en tant qu'agent de terrain, avant d'être plus tard transféré dans une unité du SWAT. Il porte des explosifs qu'il a développés avec l'équipe d'ingénieurs du FBI SWAT, et qui peuvent détruire les obstacles les plus résistants."
+exports.url = "https://google.fr"
+exports.capacité = "CHARGE EXOTHERMIQUE (BRIMSTONE BC-3)"
+exports.ext=".gif"

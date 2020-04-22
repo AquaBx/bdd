@@ -1,0 +1,7 @@
+exports.name = "Lesion"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Né dans la baie de Tseung Kwan O, Liu Tze Long, nom de code Lesion, a été élevé par son père, ouvrier dans une entreprise de démolition navale. Durant ces années, il n'hésitait pas à emmener son fils sur le chantier naval pour qu'il lui prête main-forte. Croulant sous les dettes après que son père a été blessé, Lesion enchaîna plusieurs missions de démolition dangereuses, jusqu'à ce qu'il ait une opportunité d'effectuer des missions de déminage. Démontrant un calme naturel lorsqu'il manipulait des substances hautement corrosives, il rejoint le bureau de traitement des explosifs. C'est un expert reconnu en menaces terroristes, qu'elles soient nucléaires, radiologiques, biologiques ou chimiques."
+exports.url = "https://google.fr"
+exports.capacité = "MINE GU"
+exports.ext=".png"

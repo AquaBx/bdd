@@ -1,0 +1,7 @@
+exports.name = "Castle"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Miles Campbell possède une licence en droit pénal et est un ancien officier de la police de Los Angeles qui a rejoint les fédéraux pour finalement devenir un vétéran du FBI SWAT. C'est un expert en défense et en renforcement de l'équipe Rainbow, toujours prêt à déployer ses fameuses barricades renforcées."
+exports.url = "https://google.fr"
+exports.capacité = "PANNEAU DE BLINDAGE (PANNEAU TACTIQUE UNIVERSEL UTP1)"
+exports.ext=".gif"

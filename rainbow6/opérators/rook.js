@@ -1,0 +1,7 @@
+exports.name = "Rook"
+exports.armure = "● ● ●"
+exports.rapidité = "● ○ ○"
+exports.description = "Julien Nizan s'occupe du célèbre exercice de confiance destiné aux recrues du GIGN : se faire tirer dessus par un camarade avec pour seule protection une plaque de petite taille. Rook emporte en opération des plaques de même type, qu'il distribue à ses équipiers afin d'accroître leur protection. Rook peut considérablement améliorer les chances de survie de son équipe grâce à son sac de plaques : chaque protection R1N \"Rhino\" augmente la probabilité de survivre à un éventuel projectile."
+exports.url = "https://google.fr"
+exports.capacité = "SAC DE PLAQUES DE PROTECTION (PROTECTIONS R1N \"RHINO\")"
+exports.ext=".gif"

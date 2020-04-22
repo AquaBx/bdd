@@ -1,0 +1,7 @@
+exports.name = "Frost"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Officier de systèmes de combat, Tina Lin Tsang est très concentrée et méticuleuse. Elle utilise le Sterling Mk2 LHT ou “Tapis rouge”, un piège au sol qui lui permet d'immobiliser sa proie sans la tuer. L'aspect épuré du “Tapis rouge” lui permet d'être déployé dans de nombreux environnements et zones sans nécessiter de camouflage spécifique."
+exports.url = "https://google.fr"
+exports.capacité = "TAPIS ROUGE (STERLING MK2 LHT)"
+exports.ext=".png"

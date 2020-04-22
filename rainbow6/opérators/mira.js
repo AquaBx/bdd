@@ -1,0 +1,7 @@
+exports.name = "Mira"
+exports.armure = "● ● ●"
+exports.rapidité = "● ○ ○"
+exports.description = "Elena María Álvarez est née à Retiro, Madrid, où elle a appris à détecter et à réparer les défectuosités mécaniques sur les moteurs d’automobile. Démontrant une endurance physique solide et un besoin irrépressible de faire ses preuves, Álvarez a rejoint plus tard le Grupo Especial de Operaciones (G.E.O.). Sa grande connaissance des véhicules lui a permis de devenir une experte dans le domaine balistique. Elle utilise ses connaissances pour concevoir et tester du matériel pare-balles."
+exports.url = "https://google.fr"
+exports.capacité = "MIROIR SANS TAIN"
+exports.ext=".png"

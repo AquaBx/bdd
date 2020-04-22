@@ -1,0 +1,7 @@
+exports.name = "Thatcher"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Né dans une famille de dockers, Baker s'est engagé dans les forces armées le jour de ses dix-huit ans. Vétéran de trois conflits, Baker était le plus vieil agent du SAS en service actif lors de son recrutement par Rainbow. Baker est très observateur, calculateur et déterminé. Parfois impatient et de cynique, il possède un sens profond des responsabilités et de l'éthique. Il est recommandé d'affecter Baker à de jeunes agents aux fortes convictions morales, auxquels il servira de mentor."
+exports.url = "https://google.fr"
+exports.capacité = "GRENADE IEM (IEM EG MKO)"
+exports.ext=".gif"

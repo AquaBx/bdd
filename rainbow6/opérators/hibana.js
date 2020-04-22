@@ -1,0 +1,7 @@
+exports.name = "Hibana"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Ayant passé sa prime jeunesse à Nagoya, au Japon, Imagawa est une véritable experte dans l'art de s'infiltrer dans les zones à haut risque, doublée d'une spécialiste en arts martiaux. C'est à l'âge de dix-huit ans qu'elle s'est inscrite à l'académie de police, où elle a rapidement gagné le surnom de \"Hibana\" en raison de ses talents de meneuse sur le terrain. Imagawa a par la suite acquis une incroyable polyvalence tactique en suivant divers entraînements du SWAT du FBI et du GIGN. Forte d'un esprit d'équipe irréprochable et d'une maîtrise parfaite des techniques d'assaut, elle n'a pas tardé à être recrutée par l'unité spéciale de la police de la préfecture d'Aichi."
+exports.url = "https://google.fr"
+exports.capacité = "LANCE-GRENADES CALIBRE 40 MM (X-KAIROS)"
+exports.ext=".png"

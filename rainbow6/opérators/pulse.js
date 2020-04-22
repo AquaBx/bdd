@@ -1,0 +1,7 @@
+exports.name = "Pulse"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Le travail de Jack Estrada au sein du programme de biométrique du FBI lui a permis de mettre efficacement en application sa formation en communication et en biochimie. Lorsqu'il est entré dans la vie active en 2010, il est naturellement devenu un négociateur grâce à sa capacité à analyser les comportements. Il dispose d'un détecteur de battements cardiaques capable de repérer des alliés ou des ennemis à distance."
+exports.url = "https://google.fr"
+exports.capacité = "CAPTEUR CARDIAQUE HB-5"
+exports.ext=".gif"

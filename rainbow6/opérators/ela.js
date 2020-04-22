@@ -1,0 +1,7 @@
+exports.name = "Ela"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Elzbieta Bosak fait partie des tout nouveaux agents de l'équipe Rainbow. Surnommée Ela, cette trentenaire déterminée a eu un parcours peu conventionnel. Rapidement montée en grade au sein des forces spéciales polonaises, elle fut déployée dans six pays et fut un agent actif en Irak pendant sept ans. Ses exploits ne devraient pas être une surprise, dans la mesure où elle est la plus jeune fille de Jan Bosak, un ancien commandant du GROM, l'unité de contre-terrorisme polonais. Malgré cet héritage, Ela n'est pas le soldat acharné auquel on pourrait attendre. Ela a connu quelques difficultés lors de son apprentissage à l'école militaire. Elle fut constamment malmenée à cause de l'attention qu'elle recevait en tant que fille du commandant du GROM."
+exports.url = "https://google.fr"
+exports.capacité = "MINE GRZMOT"
+exports.ext=".png"

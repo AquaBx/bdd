@@ -1,0 +1,7 @@
+exports.name = "Echo"
+exports.armure = "● ● ●"
+exports.rapidité = "● ○ ○"
+exports.description = "Véritable prodige de la robotique, Masaru Enatsu a grandi à Suginami, un arrondissement de Tokyo abritant un grand nombre de studios d'animation et d'entreprises spécialisées dans la technologie. C'est justement pour essayer ses créations sur le terrain qu'il s'est inscrit à l'académie de police. En tant qu'expert en opérations de reconnaissance, il a ensuite été recruté par l'unité spéciale du département de la police métropolitaine de Tokyo, avant d'être transféré dans celle d'Aichi."
+exports.url = "https://google.fr"
+exports.capacité = "DRONE PILOTÉ À DISTANCE (YOKAI)"
+exports.ext=".png"

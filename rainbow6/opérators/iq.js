@@ -1,0 +1,7 @@
+exports.name = "IQ"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Perfectionniste et vive, Monika Weiss se révèle très douée dans tout ce qu'elle entreprend. Après des études à l'Ivy League en ingénierie électrique et un premier service dans les unités aériennes et techniques du GSG 9, elle utilise un appareil pouvant détecter les pièges et gadgets électroniques à distance. Le gadget d'IQ est très utile pour désactiver les appareils de brouillage à travers des barricades afin de permettre à vos équipiers de poser des charges librement."
+exports.url = "https://google.fr"
+exports.capacité = "DÉTECTEUR ÉLECTRONIQUE (DSE MKIII \"SPECTRE\")"
+exports.ext=".gif"

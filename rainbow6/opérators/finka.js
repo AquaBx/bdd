@@ -1,0 +1,7 @@
+exports.name = "Finka"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Lera Melkinova est née en Biélorussie, dans la ville de Gomel, trois ans après la catastrophe de Tchernobyl et est atteinte d'une neuropathie entraînant une lente dégénérescence musculaire et la perte de sensations dans les membres et les extrémités. Elle a toujours repoussé ses limites pour rester en bonne santé et vaincre ses symptômes. Elle a déménagé à Novossibirsk et obtenu un doctorat en microbiologie et immunologie et elle a découvert des traitements à l'aide de nanites auto-dissolvants. Elle n'a pas trouvé de remède pour sa maladie, mais elle est entrée en rémission. Ses recherches ont sauvé des agents du Spetsnaz de nombreux dangers et cela lui permit d'ouvrir les yeux sur de nouvelles possibilités. Elle s'engagea dans l'armée et devint un spécialiste NRBC au sein des Spetsnaz. Quant à l'origine de son surnom, demandez à Kapkan ou à Lera elle-même."
+exports.url = "https://google.fr"
+exports.capacité = "INJECTION DE NANOBOTS"
+exports.ext=".png"

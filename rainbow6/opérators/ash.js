@@ -1,0 +1,7 @@
+exports.name = "Ash"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Eliza Cohen a fait ses premières armes en servant dans l'IDF israélien. Elle fait maintenant partie du FBI SWAT grâce à un programme d'échange d'application de la loi internationale. Cohen est une experte en démolition et a inventé une arme tirant des explosifs capables de faire sauter une porte ou un mur à distance."
+exports.url = "https://google.fr"
+exports.capacité = "Munition d'infiltration (M120 CREM (COMPACT RIFLE ENTRY MUNITION))"
+exports.ext=".gif"

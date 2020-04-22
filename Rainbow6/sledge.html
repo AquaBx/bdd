@@ -14,36 +14,32 @@
 <body>        
         <h1>Sledge</h1>
         <div class="body">
-<div class="armes">
-        <h2>Armes Principales</h2>
-<div class="armes-principales htc" width=50%>
-    
-    <div class="divarmes"><img src="Weapons/sas/m590a1.png" onclick="afficher()"/></div>
-    <div class="divarmes"><img src="Weapons/sas/l85a2.png" onclick="afficher2()"/></div>
-</div>
-<h2>Armes Secondaires</h2>
-<div class="armes-secondaires htc" width=50%>
-    
-    <div class="divarmes"><img src="Weapons/sas/p226mk25.png" onclick="afficher3()"/></div>
-    <div class="divarmes"><img src="Weapons/sas/smg11.png" onclick="afficher4()"/></div>
-</div>
-<h2>Gadgets</h2>
-<div class="gadgets htc" width=50%>
-   
-    <div class="divarmes"><img src="Weapons/gadgets/grenade-flash.png" onclick="afficher5()"/></div>
-    <div class="divarmes"><img src="Weapons/gadgets/grenade-frag.png" onclick="afficher6()"/></div>
-</div>
-<h2>Gadget unique</h2>
-<div class="gadget-unique htc" width=50%>
-    
-    <div class="divarmes"><img src="Weapons/gadgets/grenade-frag.png" onclick="afficher7()"/></div>
-</div>
-</div>
+			<div class="armes">
+        		<h2>Armes Principales</h2>
+				<div class="armes-principales htc" width=50%>
+    				<div class="divarmes"><img src="Weapons/M590A1.png" onclick="afficher('div1')"/></div>
+    				<div class="divarmes"><img src="Weapons/L85A2.png" onclick="afficher('div2')"/></div>
+				</div>
+				<h2>Armes Secondaires</h2>
+				<div class="armes-secondaires htc" width=50%>
+					<div class="divarmes"><img src="Weapons/P226_Mk_25.png" onclick="afficher('div3')"/></div>
+    				<div class="divarmes"><img src="Weapons/SMG-11.png" onclick="afficher('div4')"/></div>
+				</div>
+				<h2>Gadgets</h2>
+				<div class="gadgets htc" width=50%>
+					<div class="divarmes"><img src="Weapons/gadgets/grenade-flash.png" onclick="afficher('div5')"/></div>
+    				<div class="divarmes"><img src="Weapons/gadgets/grenade-frag.png" onclick="afficher('div6')"/></div>
+				</div>
+				<h2>Gadget unique</h2>
+				<div class="gadget-unique htc" width=50%>
+					<div class="divarmes"><img src="Weapons/gadgets/grenade-frag.png" onclick="afficher('div7')"/></div>
+				</div>
+			</div>
 
 <div class="perf">
 <div id="div1">
-        <h2>m590a1</h2>
-        <img src="Weapons/sas/m590a1.png" width=500 height=auto/>
+        <h2>M590A1</h2>
+        <img src="Weapons/M590A1.png" width=500 height=auto/>
         <p>Mitrailleuse</p>
         <table>
                 <tr>
@@ -146,87 +142,37 @@
 </html>
 
 <script>
-        function afficher() {
-        if (window.getComputedStyle(document.querySelector('#div1')).display=='none'){
-        document.querySelector("#div1").style.display="block";
+function afficher(tdiv) {
+		document.querySelector("#div1").style.display="none";
         document.querySelector("#div2").style.display="none";
         document.querySelector("#div3").style.display="none";
         document.querySelector("#div4").style.display="none";
         document.querySelector("#div5").style.display="none";
         document.querySelector("#div6").style.display="none";
-        document.querySelector("#div7").style.display="none";        
-        } } 
+        document.querySelector("#div7").style.display="none";
+        document.querySelector("#"+tdiv).style.display="block";
+    }
 
 
-        function afficher2() {
-        if (window.getComputedStyle(document.querySelector('#div2')).display=='none'){
-        document.querySelector("#div1").style.display="none";
-        document.querySelector("#div2").style.display="block";
-        document.querySelector("#div3").style.display="none";
-        document.querySelector("#div4").style.display="none";
-        document.querySelector("#div5").style.display="none";
-        document.querySelector("#div6").style.display="none";
-        document.querySelector("#div7").style.display="none";   
-        } } 
+var file = 'opérators/bandit.js';
 
+var api = new XMLHttpRequest();
+	api.open("GET", file, true);
+	api.onreadystatechange = function(channel) {
 
-        function afficher3() {
-        if (window.getComputedStyle(document.querySelector('#div3')).display=='none'){
-        document.querySelector("#div1").style.display="none";
-        document.querySelector("#div2").style.display="none";
-        document.querySelector("#div3").style.display="block";
-        document.querySelector("#div4").style.display="none";
-        document.querySelector("#div5").style.display="none";
-        document.querySelector("#div6").style.display="none";
-        document.querySelector("#div7").style.display="none";   
-        } } 
+		  if(api.readyState == 4) {
 
+			var data = JSON.parse(api.responseText);
 
-        function afficher4() {
-        if (window.getComputedStyle(document.querySelector('#div4')).display=='none'){
-        document.querySelector("#div1").style.display="none";
-        document.querySelector("#div2").style.display="none";
-        document.querySelector("#div3").style.display="none";
-        document.querySelector("#div4").style.display="block";
-        document.querySelector("#div5").style.display="none";
-        document.querySelector("#div6").style.display="none";
-        document.querySelector("#div7").style.display="none";   
-        } } 
-
-
-        function afficher5() {
-        if (window.getComputedStyle(document.querySelector('#div5')).display=='none'){
-        document.querySelector("#div1").style.display="none";
-        document.querySelector("#div2").style.display="none";
-        document.querySelector("#div3").style.display="none";
-        document.querySelector("#div4").style.display="none";
-        document.querySelector("#div5").style.display="block";
-        document.querySelector("#div6").style.display="none";
-        document.querySelector("#div7").style.display="none";   
-        } } 
-
-
-        function afficher6() {
-        if (window.getComputedStyle(document.querySelector('#div6')).display=='none'){
-        document.querySelector("#div1").style.display="none";
-        document.querySelector("#div2").style.display="none";
-        document.querySelector("#div3").style.display="none";
-        document.querySelector("#div4").style.display="none";
-        document.querySelector("#div5").style.display="none";
-        document.querySelector("#div6").style.display="block";
-        document.querySelector("#div7").style.display="none";   
-        } } 
-
-
-        function afficher7() {
-        if (window.getComputedStyle(document.querySelector('#div7')).display=='none'){
-        document.querySelector("#div1").style.display="none";
-        document.querySelector("#div2").style.display="none";
-        document.querySelector("#div3").style.display="none";
-        document.querySelector("#div4").style.display="none";
-        document.querySelector("#div5").style.display="none";
-        document.querySelector("#div6").style.display="none";
-        document.querySelector("#div7").style.display="block";   
-        } }
+			document.write(data.name);
+			document.write(data.armure);
+			document.write(data.rapidité);
+			document.write(data.description);
+			document.write(data.url);
+			document.write(data.capacité);
+			document.write(data.ext);
+		}
+	}
+	api.send();
 
 </script>

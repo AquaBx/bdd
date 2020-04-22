@@ -1,0 +1,7 @@
+exports.name = "Vigil"
+exports.armure = "● ○ ○"
+exports.rapidité = "● ● ●"
+exports.description = "Chul Kyung Hwa, nom de code Vigil, a passé son enfance en fuite à travers l'Asie. La perte de sa mère et de son frère aîné l'a beaucoup affecté. Il trouva asile en Corée du Sud, s'enrôla dans la Marine et devint un matelot exemplaire. Il gagna son poste au sein des ROKN UDT/NAVY SEAL, où il devint un agent si compétent qu'il fut sélectionné pour intégrer le 707th SMB."
+exports.url = "https://google.fr"
+exports.capacité = "DISSIMULATION À RENDU ÉLECTRONIQUE (ERC-7)"
+exports.ext=".png"

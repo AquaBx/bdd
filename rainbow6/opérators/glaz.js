@@ -1,0 +1,7 @@
+exports.name = "Glaz"
+exports.armure = "● ● ○"
+exports.rapidité = "● ● ○"
+exports.description = "Timur Glazkov est un tireur expert qui a participé au conflit d'Ossétie du Sud et qui a travaillé comme garde du corps pendant des années. En tant que sniper de Rainbow, il est le membre de l'escouade le plus doué avec les armes à longue portée. Glaz peut utiliser une lunette grossissante pour faire de son Dragunov un véritable fusil de précision."
+exports.url = "https://google.fr"
+exports.capacité = "VISÉE AUXILIAIRE HDS"
+exports.ext=".gif"
