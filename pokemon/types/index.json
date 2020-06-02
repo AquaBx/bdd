@@ -1,0 +1,19 @@
+{
+    "bug":"https://aquabx.github.io/bdd/pokemon/types/bug.svg",
+    "dark":"https://aquabx.github.io/bdd/pokemon/types/dark.svg",
+    "dragon":"https://aquabx.github.io/bdd/pokemon/types/dragon.svg",
+    "electric":"https://aquabx.github.io/bdd/pokemon/types/electric.svg",
+    "fairy":"https://aquabx.github.io/bdd/pokemon/types/fairy.svg",
+    "fighting":"https://aquabx.github.io/bdd/pokemon/types/fighting.svg",
+    "flying":"https://aquabx.github.io/bdd/pokemon/types/flying.svg",
+    "ghost":"https://aquabx.github.io/bdd/pokemon/types/ghost.svg",
+    "grass":"https://aquabx.github.io/bdd/pokemon/types/grass.svg",
+    "ground":"https://aquabx.github.io/bdd/pokemon/types/ground.svg",
+    "ice":"https://aquabx.github.io/bdd/pokemon/types/ice.svg",
+    "normal":"https://aquabx.github.io/bdd/pokemon/types/normal.svg",
+    "poison":"https://aquabx.github.io/bdd/pokemon/types/poison.svg",
+    "psychic":"https://aquabx.github.io/bdd/pokemon/types/psychic.svg",
+    "rock":"https://aquabx.github.io/bdd/pokemon/types/rock.svg",
+    "steel":"https://aquabx.github.io/bdd/pokemon/types/steel.svg",
+    "water":"https://aquabx.github.io/bdd/pokemon/types/water.svg"
+}
