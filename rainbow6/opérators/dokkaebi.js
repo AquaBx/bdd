@@ -1,7 +1,0 @@
-exports.name = "Dokkaebi"
-exports.armure = "● ● ○"
-exports.rapidité = "● ● ○"
-exports.description = "Originaire de Séoul, en Corée du Sud, Grace Nam a toujours dépassé les attentes. Au cours de sa carrière militaire, elle se fit remarquer pour ses compétences techniques exemplaires et sa grande adaptabilité. Lors de sa participation à un entraînement commun avec le détachement K des Bérets verts, les instructeurs américains l'encouragèrent à tenter de rejoindre le 707th SMB."
-exports.url = "https://google.fr"
-exports.capacité = "BOMBE LOGIQUE"
-exports.ext=".png"

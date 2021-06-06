@@ -1,7 +1,0 @@
-exports.name = "Doc"
-exports.armure = "● ● ●"
-exports.rapidité = "● ○ ○"
-exports.description = "Kateb a grandi dans une famille riche du 16ème arrondissement de Paris. À 20 ans, il a abandonné ses études de médecine générale pour se lancer dans une carrière au Service de santé des armées. Gustave Kateb est une personne d'exception : un véritable altruiste, un idéaliste désirant créer un monde plus sûr. Volontaire pour Médecins sans frontières et officier médical de la Brigade des forces spéciales Terre, c'est un médecin de terrain efficace qui transporte un pistolet stim capable de réanimer à distance ses équipiers blessés."
-exports.url = "https://google.fr"
-exports.capacité = "PISTOLET STIM MPD-0"
-exports.ext=".gif"

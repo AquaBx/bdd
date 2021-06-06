@@ -1,7 +1,0 @@
-exports.name = "Kapkan"
-exports.armure = "● ● ○"
-exports.rapidité = "● ● ○"
-exports.description = "Basuda est né de parents ouvriers et a grandi à Kovrov. Désireux d'échapper à une vie de travail à l'usine, il s'est engagé auprès du ministère des affaires intérieures et a été envoyé dans un petit port de la mer de Barents. Pendant ce séjour dans le cercle arctique, il est devenu un chasseur et un trappeur passionnés. Cet expert en leurres et pièges possède un piège doté d'un fil laser pour les fenêtres et les portes qui entrave tout ennemi (ou allié) essayant de passer."
-exports.url = "https://google.fr"
-exports.capacité = "DISPOSITIF DE BLOCAGE D'ACCÈS (EDD MK II)"
-exports.ext=".gif"

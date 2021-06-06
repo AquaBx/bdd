@@ -1,7 +1,0 @@
-exports.name = "Jackal"
-exports.armure = "● ● ○"
-exports.rapidité = "● ● ○"
-exports.description = "Né à Ceuta en Espagne, Ryad Ramírez Al-Hassar fait preuve d’une grande ingéniosité sur les terrains difficiles, ce qui fait de lui un expert de la traque. Sa formation intensive à l’extérieur du Cuerpo Nacional de Policía (Corps national de police) comprend plusieurs cours de survie, des programmes tactiques de navigation dans le désert et des exercices spécialisés de combat sous-marin. Ramírez est reconnu comme l’un des meilleurs atouts du G.E.O. pour repérer les cibles à valeur élevée et intercepter les expéditions de stupéfiants. Il est impitoyable sur le terrain et déterminé à résoudre les événements qui ont conduit à la perte de son frère aîné, Faisal."
-exports.url = "https://google.fr"
-exports.capacité = "LE MODÈLE EYENOX III"
-exports.ext=".png"

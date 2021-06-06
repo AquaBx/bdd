@@ -1,7 +1,0 @@
-exports.name = "Caveira"
-exports.armure = "● ○ ○"
-exports.rapidité = "● ● ●"
-exports.description = "Réputée pour ses interrogatoires musclés, Taina \"Caveira\" Pereira est un Agent tout aussi redoutable une fois sur le terrain. Originaire d'une petite ville de la périphérie de São Paulo, son existence aurait pu mal tourner dès ses 16 ans, quand elle fut arrêtée pour vol. Heureusement pour elle, son profil prometteur lui a valu un traitement exceptionnel : le choix entre intégrer un \"centre éducatif fermé\" et travailler avec le BOPE."
-exports.url = "https://google.fr"
-exports.capacité = "LUISON (PRB92 ÉQUIPÉ D'UN SILENCIEUX MODIFIÉ)"
-exports.ext=".png"
